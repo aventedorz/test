@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.hangman-container {
+    margin-top: 20px;
+}
+
+.hangman {
+    width: 200px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hangman div {
+    background-color: #000;
+    position: absolute;
+}
+
+.head {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: 10px;
+    left: 70px;
+}
+
+.body {
+    width: 20px;
+    height: 90px;
+    top: 70px;
+    left: 90px;
+}
+
+.left-arm, .right-arm {
+    width: 20px;
+    height: 60px;
+    top: 70px;
+}
+
+.left-arm {
+    transform: rotate(45deg);
+    left: 65px;
+}
+
+.right-arm {
+    transform: rotate(-45deg);
+    left: 115px;
+}
+
+.left-leg, .right-leg {
+    width: 20px;
+    height: 80px;
+    top: 150px;
+}
+
+.left-leg {
+    transform: rotate(-45deg);
+    left: 80px;
+}
+
+.right-leg {
+    transform: rotate(45deg);
+    left: 100px;
+}
+
+.word-display {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.letter-buttons {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 18px;
+    padding: 5px 10px;
+    margin: 5px;
+}
